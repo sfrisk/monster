@@ -1861,7 +1861,7 @@ COMIC
 
 /* line 892, ../scss/breakpoints/_base.scss */
 .comic_navi {
-  width: 95%;
+  width: 99%;
   margin: 1em auto 1em auto;
   text-align: center;
 }
@@ -1869,7 +1869,7 @@ COMIC
 .comic_navi span, .comic_navi a {
   display: inline-block;
   text-indent: -999em;
-  margin: 0 1em;
+  margin: 0 .5em;
 }
 /* line 904, ../scss/breakpoints/_base.scss */
 .comic_navi .navi-first-in {
