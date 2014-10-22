@@ -160,6 +160,10 @@ ADBOX
 	line-height: 0;
 	text-align: center;
 	display: block;
+
+	p {
+		line-height: 1.5em;
+	}
 }
 
 .patreon {

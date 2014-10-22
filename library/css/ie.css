@@ -397,8 +397,12 @@ ADBOX
   text-align: center;
   display: block;
 }
+/* line 164, ../scss/breakpoints/_768up.scss */
+.ad-box p, .patreon p {
+  line-height: 1.5em;
+}
 
-/* line 165, ../scss/breakpoints/_768up.scss */
+/* line 169, ../scss/breakpoints/_768up.scss */
 .patreon {
   margin-top: 0;
   margin-bottom: 1em;
@@ -407,28 +411,28 @@ ADBOX
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 178, ../scss/breakpoints/_768up.scss */
+/* line 182, ../scss/breakpoints/_768up.scss */
 .sidebar {
   width: 32.20339%;
   float: left;
   margin-right: 1.69492%;
 }
 
-/* line 186, ../scss/breakpoints/_768up.scss */
+/* line 190, ../scss/breakpoints/_768up.scss */
 .widget {
   margin: 0;
 }
-/* line 189, ../scss/breakpoints/_768up.scss */
+/* line 193, ../scss/breakpoints/_768up.scss */
 .widget .ad-box {
   margin: 0 0 1em 0;
   padding: 2em;
 }
-/* line 195, ../scss/breakpoints/_768up.scss */
+/* line 199, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 203, ../scss/breakpoints/_768up.scss */
+/* line 207, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -448,7 +452,7 @@ SIDEBARS & ASIDES
 /*********************
 Comicsssss
 *********************/
-/* line 302, ../scss/breakpoints/_768up.scss */
+/* line 306, ../scss/breakpoints/_768up.scss */
 #comic-wrap {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -458,7 +462,7 @@ Comicsssss
   padding: 1em;
 }
 
-/* line 309, ../scss/breakpoints/_768up.scss */
+/* line 313, ../scss/breakpoints/_768up.scss */
 .hentry {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -468,7 +472,7 @@ Comicsssss
 /*********************
 FOOTER STYLES
 *********************/
-/* line 318, ../scss/breakpoints/_768up.scss */
+/* line 322, ../scss/breakpoints/_768up.scss */
 .logo-footer {
   width: 32.20339%;
   float: right;
@@ -477,7 +481,7 @@ FOOTER STYLES
   text-align: right;
 }
 
-/* line 324, ../scss/breakpoints/_768up.scss */
+/* line 328, ../scss/breakpoints/_768up.scss */
 .main-footer {
   width: 66.10169%;
   float: left;
@@ -489,7 +493,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 337, ../scss/breakpoints/_768up.scss */
+/* line 341, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
