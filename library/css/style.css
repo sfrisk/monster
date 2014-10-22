@@ -1869,7 +1869,7 @@ COMIC
 .comic_navi span, .comic_navi a {
   display: inline-block;
   text-indent: -999em;
-  margin: 0 2em;
+  margin: 0 1em;
 }
 /* line 904, ../scss/breakpoints/_base.scss */
 .comic_navi .navi-first-in {
