@@ -17,7 +17,7 @@
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 								<!-- Monster Markup Manual - comic Leaderboard -->
 								<ins class="adsbygoogle"
-								     style="display:inline-block;width:728px;height:90px"
+								     style="display:block;width:728px;height:90px"
 								     data-ad-client="ca-pub-8351816237113667"
 								     data-ad-slot="9357741633"></ins>
 								<script>
