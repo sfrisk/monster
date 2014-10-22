@@ -1,0 +1,12 @@
+/******************************************************************
+Site Name: Monster Markup Manual
+Author: Sarah Frisk
+
+******************************************************************/
+@import "susy";
+
+/* Changing Susy default global settings */
+$susy: (  columns: 12, global-box-sizing: border-box);
+
+/* Makes border-box properties */
+@include border-box-sizing;
