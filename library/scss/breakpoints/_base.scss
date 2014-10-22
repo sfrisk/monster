@@ -878,11 +878,18 @@ SIDEBARS & ASIDES
 /*********************
 COMIC
 *********************/
-#comic-wrap{ background: #fff; padding: 20px 0}
+#comic-wrap{ 
+	background: #fff; 
+	padding: 20px 0;
+
+	.sidebar {
+		width: 100%;
+		float: none;
+	}
+}
 
 
-
-.comic-nav-wrapper{
+.comic_navi{
 	width: 95%;
 	margin: 1em auto 1em auto;
 	text-align: center;
@@ -891,48 +898,54 @@ COMIC
 	span, a {
 		display:inline-block;
 		text-indent: -999em;
+		margin: 0 2em;
 	}
 
-	.comic-nav-first {
+	.navi-first-in {
 		background: url(../images/navigation.png) no-repeat 0 0;
 		width: 65px;
 		height: 37px;
 	}
 
-	a.comic-nav-first {
+	a.navi-first-in {
 		background: url(../images/navigation.png) no-repeat 0 -40px;
 	}
 
-	.comic-nav-previous {
+	.navi-prev-in {
 		background: url(../images/navigation.png) no-repeat -80px 0;
 		width: 29px;
 		height: 37px;
 	}
 
-	a.comic-nav-previous {
+	a.navi-prev-in {
 		background: url(../images/navigation.png) no-repeat -80px -40px;
 	}
 
-	.comic-nav-next {
+	.navi-next-in {
 		background: url(../images/navigation.png) no-repeat -128px 0;
 		width: 29px;
 		height: 37px;
 	}
 
-	a.comic-nav-next {
+	a.navi-next-in {
 		background: url(../images/navigation.png) no-repeat -128px -40px;
 	}
 
-	.comic-nav-last {
+	.navi-last-in {
 		background: url(../images/navigation.png) no-repeat -176px 0;
 		width: 65px;
 		height: 37px;
 	}
 
-	a.comic-nav-last {
+	a.navi-last-in {
 		background: url(../images/navigation.png) no-repeat -176px -40px;
 	}
+}
 
+.comic-thumbnail {
+	width: 300px;
+	display:inline-block;
+	text-align: center;
 }
 
 /*********************

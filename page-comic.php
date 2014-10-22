@@ -17,7 +17,6 @@
 								<img src="<?php echo get_stylesheet_directory_uri()?>/library/images/ads/leaderboard.png" />
 							</div>
 							<?php do_action('comic-blog-area'); ?>
-							<?php do_action('comic-transcript'); ?>
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">

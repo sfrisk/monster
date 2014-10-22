@@ -1853,70 +1853,83 @@ COMIC
   background: #fff;
   padding: 20px 0;
 }
-
 /* line 885, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper {
+#comic-wrap .sidebar {
+  width: 100%;
+  float: none;
+}
+
+/* line 892, ../scss/breakpoints/_base.scss */
+.comic_navi {
   width: 95%;
   margin: 1em auto 1em auto;
   text-align: center;
 }
-/* line 891, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper span, .comic-nav-wrapper a {
+/* line 898, ../scss/breakpoints/_base.scss */
+.comic_navi span, .comic_navi a {
   display: inline-block;
   text-indent: -999em;
+  margin: 0 2em;
 }
-/* line 896, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper .comic-nav-first {
+/* line 904, ../scss/breakpoints/_base.scss */
+.comic_navi .navi-first-in {
   background: url(../images/navigation.png) no-repeat 0 0;
   width: 65px;
   height: 37px;
 }
-/* line 902, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper a.comic-nav-first {
+/* line 910, ../scss/breakpoints/_base.scss */
+.comic_navi a.navi-first-in {
   background: url(../images/navigation.png) no-repeat 0 -40px;
 }
-/* line 906, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper .comic-nav-previous {
+/* line 914, ../scss/breakpoints/_base.scss */
+.comic_navi .navi-prev-in {
   background: url(../images/navigation.png) no-repeat -80px 0;
   width: 29px;
   height: 37px;
 }
-/* line 912, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper a.comic-nav-previous {
+/* line 920, ../scss/breakpoints/_base.scss */
+.comic_navi a.navi-prev-in {
   background: url(../images/navigation.png) no-repeat -80px -40px;
 }
-/* line 916, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper .comic-nav-next {
+/* line 924, ../scss/breakpoints/_base.scss */
+.comic_navi .navi-next-in {
   background: url(../images/navigation.png) no-repeat -128px 0;
   width: 29px;
   height: 37px;
 }
-/* line 922, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper a.comic-nav-next {
+/* line 930, ../scss/breakpoints/_base.scss */
+.comic_navi a.navi-next-in {
   background: url(../images/navigation.png) no-repeat -128px -40px;
 }
-/* line 926, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper .comic-nav-last {
+/* line 934, ../scss/breakpoints/_base.scss */
+.comic_navi .navi-last-in {
   background: url(../images/navigation.png) no-repeat -176px 0;
   width: 65px;
   height: 37px;
 }
-/* line 932, ../scss/breakpoints/_base.scss */
-.comic-nav-wrapper a.comic-nav-last {
+/* line 940, ../scss/breakpoints/_base.scss */
+.comic_navi a.navi-last-in {
   background: url(../images/navigation.png) no-repeat -176px -40px;
+}
+
+/* line 945, ../scss/breakpoints/_base.scss */
+.comic-thumbnail {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
 }
 
 /*********************
 FOOTER STYLES
 *********************/
-/* line 942, ../scss/breakpoints/_base.scss */
+/* line 955, ../scss/breakpoints/_base.scss */
 .footer {
   border-top: 15px solid #8754a1;
   clear: both;
   background-color: #231f20;
   color: white;
 }
-/* line 948, ../scss/breakpoints/_base.scss */
+/* line 961, ../scss/breakpoints/_base.scss */
 .footer .home-link {
   color: #bed2ef;
   text-decoration: none;
@@ -1925,18 +1938,18 @@ FOOTER STYLES
   display: inline-block;
   font-size: 30px;
 }
-/* line 957, ../scss/breakpoints/_base.scss */
+/* line 970, ../scss/breakpoints/_base.scss */
 .footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 962, ../scss/breakpoints/_base.scss */
+/* line 975, ../scss/breakpoints/_base.scss */
 .footer ul li {
   display: inline-block;
   text-align: left;
   padding-right: 1em;
 }
-/* line 968, ../scss/breakpoints/_base.scss */
+/* line 981, ../scss/breakpoints/_base.scss */
 .footer ul a {
   color: white;
   display: inline;

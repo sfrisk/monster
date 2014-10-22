@@ -12,6 +12,9 @@
 	<section class="entry-content clearfix">
 
 		<?php the_content(); ?>
+
+		<?php do_action('comic-transcript'); ?>
+
 	
 	</section>
 
