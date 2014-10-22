@@ -80,7 +80,7 @@
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- Monster Manual - leadboard -->
 							<ins class="adsbygoogle"
-							     style="display:margin:0 auto;block;max-width:728px;height:90px"
+							     style="display:block;margin:0 auto;block;max-width:728px;height:90px"
 							     data-ad-client="ca-pub-8351816237113667"
 							     data-ad-slot="7881008431"></ins>
 							<script>
