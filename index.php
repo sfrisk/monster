@@ -10,10 +10,18 @@
 						<div id="main" class="main-content" role="main">
 							<?php do_action('comic-area'); ?>
 							<div class="ad-box">
-								<img src="<?php echo get_stylesheet_directory_uri()?>/library/images/ads/leaderboard.png" />
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<!-- Monster Markup Manual - comic Leaderboard -->
+								<ins class="adsbygoogle"
+								     style="display:inline-block;max-width:728px;height:90px"
+								     data-ad-client="ca-pub-8351816237113667"
+								     data-ad-slot="9357741633"></ins>
+								<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
 							</div>
 							<?php do_action('comic-blog-area'); ?>
-						
+							<?php do_action('comic-transcript'); ?>
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
