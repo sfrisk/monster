@@ -2215,11 +2215,12 @@ you can add resource intensive styles.
   /* line 164, ../scss/breakpoints/_768up.scss */
   .ad-box p, .patreon p {
     line-height: 1.5em;
+    padding: 0 .5em;
     color: #3e224b;
     font-size: 20px;
   }
 
-  /* line 171, ../scss/breakpoints/_768up.scss */
+  /* line 172, ../scss/breakpoints/_768up.scss */
   .patreon {
     margin-top: 0;
     margin-bottom: 1em;
@@ -2228,28 +2229,28 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 184, ../scss/breakpoints/_768up.scss */
+  /* line 185, ../scss/breakpoints/_768up.scss */
   .sidebar {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 192, ../scss/breakpoints/_768up.scss */
+  /* line 193, ../scss/breakpoints/_768up.scss */
   .widget {
     margin: 0;
   }
-  /* line 195, ../scss/breakpoints/_768up.scss */
+  /* line 196, ../scss/breakpoints/_768up.scss */
   .widget .ad-box {
     margin: 0 0 1em 0;
     padding: 2em;
   }
-  /* line 201, ../scss/breakpoints/_768up.scss */
+  /* line 202, ../scss/breakpoints/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 209, ../scss/breakpoints/_768up.scss */
+  /* line 210, ../scss/breakpoints/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -2269,7 +2270,7 @@ you can add resource intensive styles.
   /*********************
   Comicsssss
   *********************/
-  /* line 308, ../scss/breakpoints/_768up.scss */
+  /* line 309, ../scss/breakpoints/_768up.scss */
   #comic-wrap {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -2279,7 +2280,7 @@ you can add resource intensive styles.
     padding: 1em;
   }
 
-  /* line 315, ../scss/breakpoints/_768up.scss */
+  /* line 316, ../scss/breakpoints/_768up.scss */
   .hentry {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -2289,7 +2290,7 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 324, ../scss/breakpoints/_768up.scss */
+  /* line 325, ../scss/breakpoints/_768up.scss */
   .logo-footer {
     width: 32.20339%;
     float: right;
@@ -2298,7 +2299,7 @@ you can add resource intensive styles.
     text-align: right;
   }
 
-  /* line 330, ../scss/breakpoints/_768up.scss */
+  /* line 331, ../scss/breakpoints/_768up.scss */
   .main-footer {
     width: 66.10169%;
     float: left;
@@ -2310,7 +2311,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 343, ../scss/breakpoints/_768up.scss */
+  /* line 344, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
