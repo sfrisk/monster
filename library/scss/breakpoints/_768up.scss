@@ -318,7 +318,7 @@ Comicsssss
 .social-media {
 	text-align:center;
 	display:block;
-	
+
 	a {
 		background: url(../images/social-media.png) no-repeat;
 		display:inline-block;
@@ -351,7 +351,7 @@ Comicsssss
 FOOTER STYLES
 *********************/
 
-.logo-footer {
+footer .logo-footer {
 	@include span(4 last);
 	padding-top: 40px;
 	text-align:right;
